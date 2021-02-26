@@ -1,0 +1,14 @@
+name: IRandomTeleport
+version: ${project.version}
+main: com.ilyapurtov.IRandomTeleport
+permissions:
+  rtp.admin:
+    default: op
+    description: Permission for access all features
+    children:
+      rtp.cooldown.bypass:
+        default: op
+        description: Permission for bypassing teleport cooldowns
+      rtp.allchannels:
+        default: op
+        description: Permission for using all channels
